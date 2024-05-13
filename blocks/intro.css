@@ -1,6 +1,4 @@
 .intro {
-  width: 830px;
-  /* height: 482px; */
   margin-top: 92px;
   color: #ffffff;
   display: flex;
@@ -14,8 +12,6 @@
   line-height: 49px;
   text-align: left;
   color: #ffffff;
-  width: 707px;
-  height: 98px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -30,8 +26,7 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
-  width: 720px;
-  height: 102px;
+
   margin: 0;
 }
 .intro__author {
@@ -40,8 +35,7 @@
   font-weight: 400;
   line-height: 34px;
   text-align: right;
-  width: 720px;
-  height: 34px;
+
   margin-right: 6px;
   align-items: flex-end;
 }
@@ -52,17 +46,14 @@
   line-height: 26.08px;
   text-align: left;
   color: #ffffff;
-  width: 720px;
-  height: 182px;
+
   margin-top: 32px;
   margin-bottom: 0;
 }
 @media (max-width: 1024px) {
   .intro {
-    width: 100%;
-    /* height: 490px; */
     margin-top: 90px;
-    margin-left: 24px;
+
     margin-bottom: 0px;
   }
   .intro__title {
@@ -71,8 +62,6 @@
     font-weight: 900;
     line-height: 49px;
     text-align: left;
-    width: 707px;
-    height: 98px;
     margin-bottom: 50px;
   }
   .intro__subtitle-and-author {
@@ -84,8 +73,6 @@
     font-weight: 400;
     line-height: 34px;
     text-align: left;
-    width: 720px;
-    height: 102px;
     margin: 0px;
   }
   .intro__author {
@@ -94,8 +81,6 @@
     font-weight: 400;
     line-height: 34px;
     text-align: right;
-    width: 720px;
-    height: 34px;
     margin: 0;
   }
   .intro__paragraph {
@@ -104,15 +89,11 @@
     font-weight: 400;
     line-height: 26.08px;
     text-align: left;
-    width: 720px;
-    height: 182px;
   }
 }
 @media (max-width: 720px) {
   .intro {
-    width: 288px;
-    /* height: 878px; */
-    margin-left: 16px;
+    margin-left: 0px;
     margin-top: 0;
     margin-bottom: 64px;
   }
@@ -122,9 +103,8 @@
     font-weight: 900;
     line-height: 35px;
     text-align: left;
-    width: 288px;
-    height: 140px;
     margin-bottom: 40px;
+    max-width: 288px;
   }
   .intro__subtitle {
     font-family: Inter;
@@ -132,9 +112,12 @@
     font-weight: 400;
     line-height: 30px;
     text-align: left;
-    width: 288px;
-    height: 180px;
+
     margin: 0;
+  }
+  .intro__subtitle-and-author {
+    margin: 0;
+    max-width: 288px;
   }
   .intro__author {
     font-family: Inter;
@@ -142,8 +125,6 @@
     font-weight: 400;
     line-height: 34px;
     text-align: right;
-    width: 288px;
-    height: 34px;
   }
   .intro__paragraph {
     font-family: Inter;
@@ -151,8 +132,8 @@
     font-weight: 400;
     line-height: 26.08px;
     text-align: left;
-    width: 288px;
-    height: 442px;
+    max-width: 288px;
+
     margin: 0;
   }
 }
