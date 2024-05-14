@@ -1,4 +1,4 @@
-.places {
+.place {
   width: 984px;
   margin-left: 148px;
   margin-right: 148px;
@@ -103,7 +103,7 @@
   margin: 0;
 }
 @media (max-width: 1024px) {
-  .places {
+  .place {
     width: 720px;
     margin: 0;
   }
@@ -167,7 +167,7 @@
   }
 }
 @media (max-width: 720px) {
-  .places {
+  .place {
     width: 320px;
     margin: 0;
   }
