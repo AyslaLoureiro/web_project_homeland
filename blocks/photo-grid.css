@@ -1,4 +1,4 @@
-.photo__grid {
+.photo-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -7,11 +7,11 @@
   margin-top: 118px;
   margin-bottom: 92px;
 }
-.photo__grid-item {
+.photo-griditem {
   width: 284px;
 }
 @media (max-width: 1024px) {
-  .photo__grid {
+  .photo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 720px;
@@ -19,12 +19,12 @@
     margin-top: 64px;
     margin-bottom: 88px;
   }
-  .photo__grid-item {
+  .photo-griditem {
     width: 352px;
   }
 }
 @media (max-width: 720px) {
-  .photo__grid {
+  .photo-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, 1fr);
@@ -33,7 +33,7 @@
     margin-top: 64px;
     margin-bottom: 62px;
   }
-  .photo__grid-item {
+  .photo-griditem {
     width: 288px;
   }
 }
