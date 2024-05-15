@@ -12,10 +12,8 @@
 }
 @media (max-width: 1024px) {
   .photo-grid {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 720px;
-    /* grid-gap: 16px; */
     margin-top: 64px;
     margin-bottom: 88px;
   }
@@ -25,12 +23,10 @@
 }
 @media (max-width: 720px) {
   .photo-grid {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, 1fr);
     width: 288px;
     grid-gap: 12px;
-    margin-top: 64px;
     margin-bottom: 62px;
   }
   .photo-griditem {
